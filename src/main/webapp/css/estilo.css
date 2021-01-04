@@ -1,0 +1,70 @@
+body{
+
+    background-color: #0f0f0f;
+    background-size: cover;
+    background-image: url("../image/Fondo.jpg");
+}
+main,footer{
+    color: white;
+}
+
+textarea{
+    min-height: 180px;
+}
+.containerForm{
+    background: white;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 10px; margin:auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.containerPresentacion{
+    margin-top: 50px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.divImagen{
+    text-align: center;
+}
+
+.containerPresentacion span {
+    font-weight: normal;
+    color: rgb(212, 212, 212);
+}
+
+#portadaPresentacion{
+    width: 180px;
+    height: 280px;
+}
+
+.letraAmarilla {
+    color: rgb(212, 212, 212);
+}
+
+.contenedor-carousel{
+    width: 100%;
+}
+
+.carousel{
+    display: flex;
+}
+
+.colorRojo{
+    background-color: tomato!important;
+}
+.imagenPerfil{
+    border-radius: 100%;
+}
+.text-center{
+    text-align: center;
+}
+
+.sin-estilo{
+    text-decoration:none;
+}
+.sin-estilo:hover{
+    text-decoration:none;
+}

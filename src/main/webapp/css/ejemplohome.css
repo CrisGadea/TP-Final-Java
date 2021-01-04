@@ -1,0 +1,117 @@
+:root {
+    --rojo: #ffffff;
+    --fondo: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0f0f0f;
+    background-image: url("../image/Fondo.jpg");
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: #FFF;
+}
+
+.text-success .footerPropio{
+    text-align: center;
+    font-size: 2.0em;
+    color:white;
+}
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url("/image/superman.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    align-items: end;
+}
+
+.pelicula-principal .contenedor {
+    margin: 0 auto;
+}
+
+.pelicula-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.pelicula-principal .boton {
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.pelicula-principal .boton:hover {
+    background: #fff;
+    color: #000;
+}
+
+.pelicula-principal .boton i {
+    margin-right: 1.25em;
+}
+
+.thumbnail .imagenPortadaHome{
+    height: 300px;
+    width: 100%;
+    border: 2px solid white
+}
+.tituloPelicula{
+    color: white;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.tituloPelicula:hover{
+    color: #8c8b8b;
+    text-decoration: none;
+}
+.contenido{
+    max-width: 12%;
+}
+
